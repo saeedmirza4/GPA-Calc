@@ -37,9 +37,12 @@ export function InstructionsSection() {
             {instructions.map((instruction, index) => (
               <div key={index} className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <instruction.icon className="h-5 w-5 text-primary" />
-                  </div>
+<div className="p-2 bg-primary/10 rounded-lg">
+  {(() => {
+    const Icon = instruction.icon;
+    return <Icon className="h-5 w-5 text-primary" />;
+  })()}
+</div>
                   <h3 className="font-semibold text-lg">{instruction.title}</h3>
                 </div>
                 

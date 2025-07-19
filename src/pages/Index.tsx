@@ -114,7 +114,7 @@ const Index = () => {
             </p>
             <div className="pt-4 border-t">
               <p className="text-xs text-muted-foreground">
-                Made with ❤️ by <span className="font-semibold text-primary">Saeed Ur Rehman</span> - BCS233057
+              Built with 💻 by <span className="font-semibold text-primary">Saeed Ur Rehman</span> - BCS233057
               </p>
               <p className="text-xs text-muted-foreground mt-1">
                 University Academic Performance Calculator
